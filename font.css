@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'General';
+    font-weight: 200; /* Light */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 300; /* Extralight */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Extralight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 500; /* Medium */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 600; /* Semibold */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 700; /* Bold */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Extrabold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 900; /* Black */
+    font-style: normal;
+    src: url('./assets/fonts/GeneralSans-Black.woff2') format('woff2');
+}
