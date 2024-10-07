@@ -12,41 +12,63 @@
 
 <body>
   <main class="relative">
-    <nav class="flex justify-between items-center px-4 py-2 md:p-4 m-2 md:m-4 uppercase border border-zinc-700 rounded-md">
-      <div class="nav-left">
-        <ul class="flex gap-4 lg:gap-8 text-base font-medium">
-          <li class="hidden md:block"><a class="text-zinc-500" href="#women">Women</a></li>
-          <li class="hidden md:block"><a class="text-zinc-500" href="#men">Men</a></li>
-          <li class="hidden md:block"><a class="text-zinc-500" href="#kids">Kids</a></li>
-          <li class="md:hidden flex flex-col gap-1 justify-center">
-            <span class="block h-px w-4 bg-zinc-800"></span>
-            <span class="block h-px w-4 bg-zinc-800"></span>
-          </li>
-        </ul>
-      </div>
+    <section class="page1 w-full h-screen pt-[.1px] bg-[url('public/assets/images/hero.jpg')] bg-cover bg-center">
+      <nav
+        class="flex justify-between items-center px-4 py-2 md:p-4 m-2 md:m-4 uppercase bg-white/30 backdrop-blur-md rounded-md">
+        <div class="nav-left">
+          <ul class="flex gap-4 lg:gap-8 text-base font-medium">
+            <li class="hidden md:block">
+              <a class="text-black" href="#women">Women</a>
+            </li>
+            <li class="hidden md:block">
+              <a class="text-black" href="#men">Men</a>
+            </li>
+            <li class="hidden md:block">
+              <a class="text-black" href="#kids">Kids</a>
+            </li>
+            <li class="md:hidden flex flex-col gap-1 justify-center">
+              <span class="block h-px w-4 bg-zinc-800"></span>
+              <span class="block h-px w-4 bg-zinc-800"></span>
+            </li>
+          </ul>
+        </div>
 
-      <div class="nav-center absolute left-1/2 -translate-x-1/2">
-        <h2><a class="font-bold text-lg sm:text-2xl tracking-tighter" href="#home">Vogue Line</a></h2>
-      </div>
+        <div class="nav-center absolute left-1/2 -translate-x-1/2">
+          <h2>
+            <a class="font-bold text-lg sm:text-2xl tracking-tighter" href="#home">Vogue Line</a>
+          </h2>
+        </div>
 
-      <div class="nav-right">
-        <ul class="flex gap-8 text-base font-medium">
-          <li class="hidden lg:block">
-            <a class="text-zinc-800" href="#home">Home</a>
-          </li>
-          <li class="hidden lg:block">
-            <a class="text-zinc-500" href="#about">About</a>
-          </li>
-          <li class="hidden lg:block">
-            <a class="text-zinc-500" href="#search">Search</a>
-          </li>
-          <li class="cart">
-            <a class="text-zinc-900 lg:text-zinc-500 text-sm sm:text-base" href="#cart">Cart
-              <span>[<span class="text-zinc-800" id="cart-count">0</span>]</span></a>
-          </li>
-        </ul>
+        <div class="nav-right">
+          <ul class="flex gap-8 text-base font-medium">
+            <li class="hidden lg:block">
+              <a class="text-black" href="#home">Home</a>
+            </li>
+            <li class="hidden lg:block">
+              <a class="text-black" href="#about">About</a>
+            </li>
+            <li class="hidden lg:block">
+              <a class="text-black" href="#search">Search</a>
+            </li>
+            <li class="cart">
+              <a class="text-black lg:text-zinc-900 text-sm sm:text-base" href="#cart">Cart
+                <span>[<span class="text-zinc-800" id="cart-count">0</span>]</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero-content w-full">
+        <div class="hero-content-left w-fit mt-20 ml-10 md:ml-20 xl:mt-32 xl:ml-40">
+          <h1 class="text-white/15 font-bold text-8xl sm:text-[10rem] lg:text-[13rem] leading-none flex flex-col" style="-webkit-text-stroke: 2px #ffffffe6;">
+            <span>Vogue</span>
+            <span>Line</span>
+          </h1>
+        </div>
+
       </div>
-    </nav>
+    </section>
+
   </main>
 </body>
 
