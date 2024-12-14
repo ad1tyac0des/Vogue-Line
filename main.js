@@ -40,3 +40,12 @@ fetch(api)
     );
     })
     .catch((err) => console.log(err));
+
+
+const cart = document.querySelector(".cartPanel");
+const cartBtn = document.querySelector(".cart"); 
+
+cartBtn.addEventListener("click", () => {
+    cart.classList.toggle("hidden");
+    cart.classList.toggle("block");
+});
